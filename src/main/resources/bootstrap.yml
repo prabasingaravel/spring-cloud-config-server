@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: file://C:/Users/Windows/git-config-repo
+        bootstrap: true
+management:  endpoints:    web:      exposure:        include: "*"
+
+server:
+  port: 8888
