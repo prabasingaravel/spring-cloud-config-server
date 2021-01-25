@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: file://C:/Users/Windows/git-config-repo
+          uri: https://github.com/prabasingaravel/cloud-config-repo
         bootstrap: true
 management:  endpoints:    web:      exposure:        include: "*"
 
